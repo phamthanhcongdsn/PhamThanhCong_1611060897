@@ -220,45 +220,45 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201803251303084_InitialModel.cs" />
-    <Compile Include="Migrations\201803251303084_InitialModel.Designer.cs">
-      <DependentUpon>201803251303084_InitialModel.cs</DependentUpon>
+    <Compile Include="Migrations\201903251303084_InitialModel.cs" />
+    <Compile Include="Migrations\201903251303084_InitialModel.Designer.cs">
+      <DependentUpon>201903251303084_InitialModel.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201803251311269_CreateTableCourse.cs" />
-    <Compile Include="Migrations\201803251311269_CreateTableCourse.Designer.cs">
-      <DependentUpon>201803251311269_CreateTableCourse.cs</DependentUpon>
+    <Compile Include="Migrations\201903251311269_CreateTableCourse.cs" />
+    <Compile Include="Migrations\201903251311269_CreateTableCourse.Designer.cs">
+      <DependentUpon>201903251311269_CreateTableCourse.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201803251312554_PopulateCategoryTable.cs" />
-    <Compile Include="Migrations\201803251312554_PopulateCategoryTable.Designer.cs">
-      <DependentUpon>201803251312554_PopulateCategoryTable.cs</DependentUpon>
+    <Compile Include="Migrations\201903251312554_PopulateCategoryTable.cs" />
+    <Compile Include="Migrations\201903251312554_PopulateCategoryTable.Designer.cs">
+      <DependentUpon>201903251312554_PopulateCategoryTable.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201803251737228_UpdateCourseTable.cs" />
-    <Compile Include="Migrations\201803251737228_UpdateCourseTable.Designer.cs">
-      <DependentUpon>201803251737228_UpdateCourseTable.cs</DependentUpon>
+    <Compile Include="Migrations\201903251737228_UpdateCourseTable.cs" />
+    <Compile Include="Migrations\201903251737228_UpdateCourseTable.Designer.cs">
+      <DependentUpon>201903251737228_UpdateCourseTable.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201804060729539_AddNameColumnToApplicationUser.cs" />
-    <Compile Include="Migrations\201804060729539_AddNameColumnToApplicationUser.Designer.cs">
-      <DependentUpon>201804060729539_AddNameColumnToApplicationUser.cs</DependentUpon>
+    <Compile Include="Migrations\201904060729539_AddNameColumnToApplicationUser.cs" />
+    <Compile Include="Migrations\201904060729539_AddNameColumnToApplicationUser.Designer.cs">
+      <DependentUpon>201904060729539_AddNameColumnToApplicationUser.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201804130609425_AddAttendance.cs" />
-    <Compile Include="Migrations\201804130609425_AddAttendance.Designer.cs">
-      <DependentUpon>201804130609425_AddAttendance.cs</DependentUpon>
+    <Compile Include="Migrations\201904130609425_AddAttendance.cs" />
+    <Compile Include="Migrations\201904130609425_AddAttendance.Designer.cs">
+      <DependentUpon>201904130609425_AddAttendance.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201804130746411_AddFollowingsTable.cs" />
-    <Compile Include="Migrations\201804130746411_AddFollowingsTable.Designer.cs">
-      <DependentUpon>201804130746411_AddFollowingsTable.cs</DependentUpon>
+    <Compile Include="Migrations\201904130746411_AddFollowingsTable.cs" />
+    <Compile Include="Migrations\201904130746411_AddFollowingsTable.Designer.cs">
+      <DependentUpon>201904130746411_AddFollowingsTable.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201804200653288_AddIsCanceledToCourse.cs" />
-    <Compile Include="Migrations\201804200653288_AddIsCanceledToCourse.Designer.cs">
-      <DependentUpon>201804200653288_AddIsCanceledToCourse.cs</DependentUpon>
+    <Compile Include="Migrations\201904200653288_AddIsCanceledToCourse.cs" />
+    <Compile Include="Migrations\201904200653288_AddIsCanceledToCourse.Designer.cs">
+      <DependentUpon>201904200653288_AddIsCanceledToCourse.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201804200730194_UserNotification.cs" />
-    <Compile Include="Migrations\201804200730194_UserNotification.Designer.cs">
-      <DependentUpon>201804200730194_UserNotification.cs</DependentUpon>
+    <Compile Include="Migrations\201904200730194_UserNotification.cs" />
+    <Compile Include="Migrations\201904200730194_UserNotification.Designer.cs">
+      <DependentUpon>201904200730194_UserNotification.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201804200732474_UserNotification1.cs" />
-    <Compile Include="Migrations\201804200732474_UserNotification1.Designer.cs">
-      <DependentUpon>201804200732474_UserNotification1.cs</DependentUpon>
+    <Compile Include="Migrations\201904200732474_UserNotification1.cs" />
+    <Compile Include="Migrations\201904200732474_UserNotification1.Designer.cs">
+      <DependentUpon>201904200732474_UserNotification1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -359,35 +359,35 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201803251303084_InitialModel.resx">
-      <DependentUpon>201803251303084_InitialModel.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201903251303084_InitialModel.resx">
+      <DependentUpon>201903251303084_InitialModel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201803251311269_CreateTableCourse.resx">
-      <DependentUpon>201803251311269_CreateTableCourse.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201903251311269_CreateTableCourse.resx">
+      <DependentUpon>201903251311269_CreateTableCourse.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201803251312554_PopulateCategoryTable.resx">
-      <DependentUpon>201803251312554_PopulateCategoryTable.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201903251312554_PopulateCategoryTable.resx">
+      <DependentUpon>201903251312554_PopulateCategoryTable.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201803251737228_UpdateCourseTable.resx">
-      <DependentUpon>201803251737228_UpdateCourseTable.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201903251737228_UpdateCourseTable.resx">
+      <DependentUpon>201903251737228_UpdateCourseTable.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804060729539_AddNameColumnToApplicationUser.resx">
-      <DependentUpon>201804060729539_AddNameColumnToApplicationUser.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201904060729539_AddNameColumnToApplicationUser.resx">
+      <DependentUpon>201904060729539_AddNameColumnToApplicationUser.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804130609425_AddAttendance.resx">
-      <DependentUpon>201804130609425_AddAttendance.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201904130609425_AddAttendance.resx">
+      <DependentUpon>201904130609425_AddAttendance.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804130746411_AddFollowingsTable.resx">
-      <DependentUpon>201804130746411_AddFollowingsTable.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201904130746411_AddFollowingsTable.resx">
+      <DependentUpon>201904130746411_AddFollowingsTable.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804200653288_AddIsCanceledToCourse.resx">
-      <DependentUpon>201804200653288_AddIsCanceledToCourse.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201904200653288_AddIsCanceledToCourse.resx">
+      <DependentUpon>201904200653288_AddIsCanceledToCourse.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804200730194_UserNotification.resx">
-      <DependentUpon>201804200730194_UserNotification.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201904200730194_UserNotification.resx">
+      <DependentUpon>201904200730194_UserNotification.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804200732474_UserNotification1.resx">
-      <DependentUpon>201804200732474_UserNotification1.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201904200732474_UserNotification1.resx">
+      <DependentUpon>201904200732474_UserNotification1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

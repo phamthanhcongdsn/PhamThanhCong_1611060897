@@ -36,39 +36,26 @@
 @section scripts
 {
     <script>
-        $(document).ready(() => {
-            $(".js-cancel-course").click((e) => {
+        $(document).ready(function() {
+            $(".js-cancel-course").click(function (e) {
                 e.preventDefault();
                 var link = $(e.target);
-                bootbox.confirm({
-                    title: "Cancel Course?",
-                    message: "Are you sure to cancel?",
-                    buttons: {
-                        cancel: {
-                            label: '<i class="fa fa-times"></i> Cancel'
-                        },
-                        confirm: {
-                            label: '<i class="fa fa-check"></i> Confirm'
-                        }
-                    },
-                    callback: (result) => {
-                        if (result) {
-                            $.ajax({
-                                url: `api/courses/${link.attr("data-course-id")}`,
-                                method: "DELETE"
+                bootbox.confirm("are you sure to cancel ?",
+                    function(){
+                        $.ajax({
+                            url: "/api/courses/" + link.attr("data-course-id"),
+                            method:"delete"
+                        })
+                        .done(function() {
+                            link.parents("li").fadeOut(function(){
+                                $(this).remove();
                             })
-                            .done(() => {
-                                link.parents("li").fadeOut(() => {
-                                    $(this).remove();
-                                });
-                            })
-                            .fail(() => {
-                                alert("Something failed!");
-                            });
-                        }
-                    }
-                });
+                        })
+                        .fail(function(){
+                            alert("something failed!");
+                        });
+                    });
             });
-        })
+        });
     </script>
 }
